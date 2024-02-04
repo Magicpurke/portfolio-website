@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 col1, col2, = st.columns(2)
 
 with col1:
-    original_image_path = "images/photo.png"
+    original_image_path = "Images/photo.png"
     original_image = Image.open(original_image_path)
 
     rotated_image = original_image.rotate(-90)
