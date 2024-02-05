@@ -9,7 +9,7 @@ with col1:
     original_image_path = "Images/photo.png"
     original_image = Image.open(original_image_path)
 
-    rotated_image = original_image.rotate
+    rotated_image = original_image
 
     st.image(rotated_image, width=600)
 
