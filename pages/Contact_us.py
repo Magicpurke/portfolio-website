@@ -2,7 +2,7 @@ import streamlit as st
 from send_email import send_email
 import pandas
 
-df = pandas.read_csv("Pages/topics.csv")
+df = pandas.read_csv("pages/topics.csv")
 
 st.header("Contact Me")
 topics = df["topic"].unique().tolist()
